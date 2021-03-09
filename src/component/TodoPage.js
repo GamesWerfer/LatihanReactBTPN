@@ -16,9 +16,6 @@ const TodoPages = () => {
     }
     
     const handleSubmit = async () => {
-        // todos.push(value);
-        // setTodos([...todos]);
-        // setValue('');
         const body = {
             title: value
         }
